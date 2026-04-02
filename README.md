@@ -243,15 +243,14 @@ Create a file at `chat-app/server/.env` with the following keys:
 
 ```env
 # Database
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/cyber-chat
+MONGO_URI=your_mongodb_connection_string
 
 # Authentication
-JWT_SECRET=your_super_secret_jwt_key_here
+JWT_SECRET=your_jwt_secret
 
 # Application
 PORT=5000
 CLIENT_URL=http://localhost:5173
-
 
 ```
 
