@@ -252,13 +252,7 @@ JWT_SECRET=your_super_secret_jwt_key_here
 PORT=5000
 CLIENT_URL=http://localhost:5173
 
-# Stripe (Western Payments)
-STRIPE_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxx
-STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxxxxxxxxxxxxx
 
-# Razorpay (Indian Payments)
-RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxxxxxx
-RAZORPAY_KEY_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 > **Warning:** Never commit your `.env` file to version control. It is already included in `.gitignore`.
